@@ -15,14 +15,22 @@
 
 <section class="main_header">
     <div class="mc-container">
-        <div class="">
-
+        <div class="main_header_contain">
+            <div class="mc-row">
+                <a href=<?php echo site_url(); ?> class="logo">
+                    <img src=<?php echo get_field("logo","option"); ?> alt="Logo">
+                </a>
+                <div class="menu_desktop">
+                    <?php
+                        wp_nav_menu( array(
+                            'theme_location' => 'main_menu',
+                        ) );
+                    ?>
+                </div>
+                <div class="icon-more-menu">
+                    ...
+                </div>
+            </div>
         </div>
     </div>
 </section>
-aaaa
-<?php
-// wp_nav_menu( array(
-//     'theme_location' => 'main_menu',
-// ) );
-?>

@@ -34,6 +34,10 @@ html,body{
     font-family: 'Roboto';
     font-size: 15px;
 }
+img{
+    display: block;
+    width: 100%;
+}
 .mc-container{
     max-width: 1200px;
     padding: 0 15px;
@@ -56,5 +60,9 @@ html,body{
 .mc-pdx-15{
     padding: 0 15px;
 }
-
 /* RESET AND SETUP CSS */
+/* ---------HEADER MENU CSS---------- */
+.main_header .logo img{
+    width:193px;
+}
+/* ---------END HEADER MENU CSS---------- */
