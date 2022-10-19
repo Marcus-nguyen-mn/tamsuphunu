@@ -1,0 +1,60 @@
+/* RESET AND SETUP CSS */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Alex-Brush';
+    src: url('../fonts/AlexBrush-Regular.woff2') format('woff2'),
+        url('../fonts/AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.mc-container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin:0 auto;
+}
+.mc-row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.mc-jc-space-between{
+    justify-content: space-between;
+}
+.mc-align-center{
+    align-items: center;
+}
+.mc-mg--15{
+    margin:0 -15px;
+}
+.mc-pdx-15{
+    padding: 0 15px;
+}
+
+/* RESET AND SETUP CSS */
