@@ -28,8 +28,11 @@
                             ) );
                         ?>
                     </div>
-                    <div class="icon-more-menu">
+                    <div class="icon-more-menu" id="showAllCateMenu">
                         ...
+                    </div>
+                    <div class="icon-close-mega-menu" id="closeAllCateMenu">
+                        x
                     </div>
                 </div>
                 
@@ -48,4 +51,7 @@
             ?>
         </div>
     </div>
+</div>
+<div class="bg-overlay-mega-menu mc-fade-in">
+
 </div>
