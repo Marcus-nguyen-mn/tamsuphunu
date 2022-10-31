@@ -33,6 +33,7 @@ html,body{
     box-sizing: border-box;
     font-family: 'Roboto';
     font-size: 15px;
+    margin-top: 24px;
 }
 img{
     display: block;
@@ -131,6 +132,11 @@ a{
 /* ---------HEADER MENU CSS---------- */
 .main_header{
     background: #FFDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 .main_header .logo img{
     width:193px;
@@ -214,4 +220,60 @@ a{
 }
 .sub-menu{-webkit-animation:sub-menu 0.5s cubic-bezier(.39,.575,.565,1.000) both;animation:sub-menu 0.5s cubic-bezier(.39,.575,.565,1.000) both}
  @-webkit-keyframes sub-menu{0%{opacity:0}100%{opacity:1}}@keyframes sub-menu{0%{opacity:0}100%{opacity:1}}
+ .mc_mega_all_menu .mc_mega_all_menu_contain .menu{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li{
+    flex: 0 0 20%;
+    max-width: 20%;
+    width: 100%;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li .sub-menu li{
+    flex: unset;
+    max-width: unset;
+    width: 100%;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li a{
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+    color:#731D0C;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li .sub-menu{
+    margin-bottom: 20px;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li .sub-menu li a{
+    color: #333;
+    font-size: 13px;
+    font-family: 'Roboto';
+    text-transform: none;
+    margin-bottom: 0;
+    position: relative;
+    padding: 5px 0 5px 14px;
+    transition: 0.3s all;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li .sub-menu li a:hover{
+    transition: 0.3s all;
+    color:#f3adad;
+}
+.mc_mega_all_menu{
+    background:#fff;
+    box-shadow: 0px 4px 10px #80808040;
+}
+.mc_mega_all_menu .mc_mega_all_menu_contain .menu li .sub-menu li a::before{
+    content:"";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    background: #731D0C;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    transition: 0.3s all;
+}
 /* ---------END HEADER MENU CSS---------- */

@@ -36,8 +36,16 @@
             </div>
         </div>
     </div>
-
-
-
-    
 </section>
+
+<div class="mc_mega_all_menu">
+    <div class="mc-container">
+        <div class="mc_mega_all_menu_contain">
+            <?php
+                wp_nav_menu( array(
+                    'theme_location' => 'main_menu',
+                ) );
+            ?>
+        </div>
+    </div>
+</div>
