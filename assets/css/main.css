@@ -38,6 +38,13 @@ img{
     display: block;
     width: 100%;
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
 .mc-container{
     max-width: 1200px;
     padding: 0 15px;
@@ -122,7 +129,89 @@ img{
 }
 /* RESET AND SETUP CSS */
 /* ---------HEADER MENU CSS---------- */
+.main_header{
+    background: #FFDBDB;
+}
 .main_header .logo img{
     width:193px;
 }
+.main_header .right-header{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.main_header .right-header .menu{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.main_header .right-header ul.menu li a{
+    display: block;
+    padding: 16px 12px;
+    font-family: 'Roboto-Bold';
+    font-size: 13px;
+    color: #731D0C;
+    transition: 0.3s all;
+}
+.main_header .right-header ul.menu li.menu-item-has-children{
+    position: relative;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    background: #fff;
+    width: 370px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 10px #80808040;
+    padding: 5px 15px;
+    display: none;
+}
+.main_header .right-header ul.menu li.menu-item-has-children:hover .sub-menu{
+    display: flex;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu li a{
+    position: relative;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu li a:hover{
+    color:#f3adad;
+    transition: 0.3s all;
+    background: #fff;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu li .sub-menu{
+    display: none;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu li a:hover::before{
+    background: #f3adad;
+    transition: 0.3s all;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu li a::before{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 4px;
+    background: #731D0C;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    transition: 0.3s all;
+}
+.main_header .right-header ul.menu li.menu-item-has-children .sub-menu li{
+    flex: 0 0 50%;
+    max-width: 48%;
+    width: 100%;
+}
+.main_header .right-header ul.menu li:hover{
+    background-color: #fff;
+    color:#731D0C;
+    transition: 0.3s all;
+}
+.main_header .right-header .icon-more-menu{
+    padding: 12px 12px;
+    cursor: pointer;
+}
+.sub-menu{-webkit-animation:sub-menu 0.5s cubic-bezier(.39,.575,.565,1.000) both;animation:sub-menu 0.5s cubic-bezier(.39,.575,.565,1.000) both}
+ @-webkit-keyframes sub-menu{0%{opacity:0}100%{opacity:1}}@keyframes sub-menu{0%{opacity:0}100%{opacity:1}}
 /* ---------END HEADER MENU CSS---------- */

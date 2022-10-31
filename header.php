@@ -16,20 +16,23 @@
 <section class="main_header">
     <div class="mc-container">
         <div class="main_header_contain">
-            <div class="mc-row">
+            <div class="mc-row mc-jc-space-between mc-align-center">
                 <a href=<?php echo site_url(); ?> class="logo">
                     <img src=<?php echo get_field("logo","option"); ?> alt="Logo">
                 </a>
-                <div class="menu_desktop">
-                    <?php
-                        wp_nav_menu( array(
-                            'theme_location' => 'main_menu',
-                        ) );
-                    ?>
+                <div class="right-header">
+                    <div class="menu_desktop">
+                        <?php
+                            wp_nav_menu( array(
+                                'theme_location' => 'main_menu',
+                            ) );
+                        ?>
+                    </div>
+                    <div class="icon-more-menu">
+                        ...
+                    </div>
                 </div>
-                <div class="icon-more-menu">
-                    ...
-                </div>
+                
             </div>
         </div>
     </div>
