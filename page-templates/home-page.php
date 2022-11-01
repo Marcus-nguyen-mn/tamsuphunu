@@ -7,7 +7,8 @@ get_header();
 <?php
     get_template_part('sections/home/focus'); 
     get_template_part('sections/home/slider'); 
-    get_template_part('sections/home/sec-3'); 
+    get_template_part('sections/home/sec-3');
+    get_template_part('sections/home/sec-4'); 
 ?>
 
 <?php get_footer();?>

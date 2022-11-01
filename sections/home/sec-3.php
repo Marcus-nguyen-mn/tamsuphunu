@@ -73,9 +73,9 @@
                                 'post_status' => 'publish',
                                 'posts_per_page' => 1,
                             );
-                            $post_one_1 = new WP_Query( $args );
-                            if ( $post_one_1->have_posts() ) :
-                            while ( $post_one_1->have_posts() ) : $post_one_1->the_post();
+                            $post_one_12 = new WP_Query( $args );
+                            if ( $post_one_12->have_posts() ) :
+                            while ( $post_one_12->have_posts() ) : $post_one_12->the_post();
                         ?>
                         <a href="<?php the_permalink(); ?>" class="mchs3_content_cover hover14">
                             <div class="mchs3_thumb_one_post">
@@ -99,9 +99,9 @@
                                     'posts_per_page' => 3,
                                     'offset' => 1, 
                                 );
-                                $post_one_list = new WP_Query( $args );
-                                if ( $post_one_list->have_posts() ) :
-                                while ( $post_one_list->have_posts() ) : $post_one_list->the_post();
+                                $post_one_list2 = new WP_Query( $args );
+                                if ( $post_one_list2->have_posts() ) :
+                                while ( $post_one_list2->have_posts() ) : $post_one_list2->the_post();
                             ?> 
                             <a href="<?php the_permalink(); ?>" class="mc-row mc-jc-space-between hover14">
                                 <div class="mccs-5">
@@ -135,9 +135,9 @@
                                 'post_status' => 'publish',
                                 'posts_per_page' => 1,
                             );
-                            $post_one_1 = new WP_Query( $args );
-                            if ( $post_one_1->have_posts() ) :
-                            while ( $post_one_1->have_posts() ) : $post_one_1->the_post();
+                            $post_one_13 = new WP_Query( $args );
+                            if ( $post_one_13->have_posts() ) :
+                            while ( $post_one_13->have_posts() ) : $post_one_13->the_post();
                         ?>
                         <a href="<?php the_permalink(); ?>" class="mchs3_content_cover hover14">
                             <div class="mchs3_thumb_one_post">
@@ -161,9 +161,9 @@
                                     'posts_per_page' => 3,
                                     'offset' => 1, 
                                 );
-                                $post_one_list = new WP_Query( $args );
-                                if ( $post_one_list->have_posts() ) :
-                                while ( $post_one_list->have_posts() ) : $post_one_list->the_post();
+                                $post_one_list3 = new WP_Query( $args );
+                                if ( $post_one_list3->have_posts() ) :
+                                while ( $post_one_list3->have_posts() ) : $post_one_list3->the_post();
                             ?>
                             <a href="<?php the_permalink(); ?>" class="mc-row mc-jc-space-between hover14">
                                 <div class="mccs-5">
@@ -196,9 +196,9 @@
                                 'post_status' => 'publish',
                                 'posts_per_page' => 1,
                             );
-                            $post_one_1 = new WP_Query( $args );
-                            if ( $post_one_1->have_posts() ) :
-                            while ( $post_one_1->have_posts() ) : $post_one_1->the_post();
+                            $post_one_14 = new WP_Query( $args );
+                            if ( $post_one_14->have_posts() ) :
+                            while ( $post_one_14->have_posts() ) : $post_one_14->the_post();
                         ?>
                         <a href="<?php the_permalink(); ?>" class="mchs3_content_cover hover14">
                             <div class="mchs3_thumb_one_post">
@@ -222,9 +222,9 @@
                                 'posts_per_page' => 3,
                                 'offset' => 1, 
                             );
-                            $post_one_list = new WP_Query( $args );
-                            if ( $post_one_list->have_posts() ) :
-                            while ( $post_one_list->have_posts() ) : $post_one_list->the_post();
+                            $post_one_list4 = new WP_Query( $args );
+                            if ( $post_one_list4->have_posts() ) :
+                            while ( $post_one_list4->have_posts() ) : $post_one_list4->the_post();
                         ?>
                         <a href="<?php the_permalink(); ?>" class="mc-row mc-jc-space-between hover14">
                             <div class="mccs-5">

@@ -707,3 +707,88 @@ a{
 	}
 }
 /* --------- END HOME SEC 3 CSS---------- */
+.mc-dis-title-muc{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #d5d5d599;
+    margin-bottom: 25px;
+}
+.mc-dis-title-muc .img-title-mc img{
+    width: 28px;
+}
+.mc-dis-title-muc .mc-title-muc{
+    font-size: 20px;
+    color:#EF4141;
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+    margin-left: 10px;
+}
+.mc_sec_4{
+    margin-bottom: 50px;
+}
+.mc-first-before .mc-first-before-thumb{
+    margin-bottom: 15px;
+    height: 256px;
+    overflow: hidden;
+}
+.mc-first-before .mc-first-before-thumb img{
+    height: 256px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.3s all;
+}
+.mc-first-before:hover .mc-first-before-thumb img{
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+.mc-first-before{
+    margin-bottom: 25px;
+    display: block;
+}
+.mc-first-before .mc-first-before-title{
+    font-size: 20px;
+    color:#000;
+    font-family: 'Roboto-Bold';
+    transition: 0.3s all;
+}
+.mc-after-post-list .mc-custom-mgb{
+    margin-bottom: 25px;
+}
+.mc-after-post-list .mc-custom-mgb .img-st-effect{
+    height: 110px;
+    overflow: hidden;
+}
+.mc-after-post-list .mc-custom-mgb:hover img{
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+.mc-after-post-list .mc-custom-mgb img{
+    height: 110px;
+    object-fit: cover;
+    transition: 0.3s all;
+    transform: scale(1);
+}
+.mc-after-post-list .mc-custom-mgb .after-post-title{
+    font-size: 16px;
+    color:#000;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 8px;
+    transition: 0.3s all;
+}
+.mc-after-post-list .mc-custom-mgb .after-post-desc{
+    font-size: 14px;
+    color:#000;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+}
+.mc-first-before:hover .mc-first-before-title{
+    transition: 0.3s all;
+    color:#EF4141;
+}
+.mc-after-post-list .mc-custom-mgb:hover .after-post-title{
+    transition: 0.3s all;
+    color:#EF4141;
+}
