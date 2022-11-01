@@ -94,11 +94,86 @@
         padding: 6px 10px 6px 30px;
         margin-left: -20px;
     }
+    .item-slider-banner a .content-on-banner-slider .title-on-banner-slider{
+        font-size: 20px;
+    }
+    .mc_home_sec_3 .mchs3_thumb_one_post img{
+        height: 150px;
+    }
+    .mc_home_sec_3 .mchs3_content_list img{
+        height: 82px;
+    }
 }
 @media only screen and (max-width: 876px){
     .mc_focus .mc-forcus-left .focus-title{
         padding: 6px 10px 6px 10px;
         margin-left: -8px;
+    }
+    .mc-col-lg-1{
+        flex: 0 0 8.33%;
+        max-width: 8.33%;
+        width: 100%;
+    }
+    .mc-col-lg-2{
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+        width: 100%;
+    }
+    .mc-col-lg-3{
+        flex: 0 0 25%;
+        max-width: 25%;
+        width: 100%;
+    }
+    .mc-col-lg-4{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        width: 100%;
+    }
+    .mc-col-lg-5{
+        flex: 0 0 41.66%;
+        max-width: 41.66%;
+        width: 100%;
+    }
+    .mc-col-lg-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+        width: 100%;
+    }
+    .mc-col-lgm-7{
+        flex: 0 0 58.33%;
+        max-width: 58.33%;
+        width: 100%;
+    }
+    .mc-col-lgm-8{
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+        width: 100%;
+    }
+    .mc-col-lgm-9{
+        flex: 0 0 75%;
+        max-width: 75%;
+        width: 100%;
+    }
+    .mc-col-lgm-10{
+        flex: 0 0 83.33%;
+        max-width: 83.33%;
+        width: 100%;
+    }
+    .mc-col-lgm-11{
+        flex: 0 0 91.66%;
+        max-width: 91.66%;
+        width: 100%;
+    }
+    .mc-col-lgm-12{
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .mc_home_sec_3 .mchs3_thumb_one_post img{
+        height: 245px;
+    }
+    .mc_home_sec_3 .mchs3_content_list img{
+        height: 95px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -161,6 +236,18 @@
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
+    }
+    .dis-block{
+        display: none !important;
+    }
+    .dis-none{
+        display: block !important;
+    }
+    .mc-form-search .form-control{
+        width: 240px;
+    }
+    .mc_home_sec_3 .mchs3_content{
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -242,6 +329,12 @@
     }
     .mc_focus{
         padding: 6px 0;
+    }
+    .item-slider-banner a .content-on-banner-slider{
+        width: 80%;
+    }
+    .item-slider-banner a .content-on-banner-slider .title-on-banner-slider{
+        font-size: 16px;
     }
 }
 @media only screen and (max-width: 438px) {

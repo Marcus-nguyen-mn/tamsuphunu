@@ -9,7 +9,8 @@
             ?>
             <div class="item-slider-banner">
                 <a href="<?php echo get_sub_field("link_banner_bond_post"); ?>">
-                    <img src="<?php echo get_sub_field("mc_banner_slider"); ?>" alt="<?php echo get_sub_field("title_on_banner_mc"); ?>">
+                    <img class="dis-block" src="<?php echo get_sub_field("mc_banner_slider"); ?>" alt="<?php echo get_sub_field("title_on_banner_mc"); ?>">
+                    <img class="dis-none" src="<?php echo get_sub_field("banner_mobile_mc_slider"); ?>" alt="<?php echo get_sub_field("title_on_banner_mc"); ?>">
                     <div class="content-on-banner-slider">
                         <div class="title-on-banner-slider">
                             <?php echo get_sub_field("title_on_banner_mc"); ?>

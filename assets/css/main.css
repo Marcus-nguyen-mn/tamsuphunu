@@ -26,6 +26,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 html,body{
     padding:0;
@@ -70,6 +71,12 @@ a{
 }
 .mc-pdx-15{
     padding: 0 15px;
+}
+.mc-mg--10{
+    margin:0 -10px;
+}
+.mc-pdx-10{
+    padding: 0 10px;
 }
 .mc-col-1{
     flex: 0 0 8.33%;
@@ -129,6 +136,16 @@ a{
 .mc-col-12{
     flex: 0 0 100%;
     max-width: 100%;
+    width: 100%;
+}
+.mccs-5{
+    flex: 0 0 41.66%;
+    max-width: 40%;
+    width: 100%;
+}
+.mccs-7{
+    flex: 0 0 58.33%;
+    max-width: 54%;
     width: 100%;
 }
 /* RESET AND SETUP CSS */
@@ -242,7 +259,7 @@ a{
     width: 100%;
     height: auto;
     left: 0;
-    z-index: 3;
+    z-index: 50;
     display: none;
 }
 .mc_mega_all_menu .mc_mega_all_menu_contain .menu li{
@@ -391,7 +408,7 @@ a{
     color: #731D0C;
 }
 .mc-menu-mobile{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: calc(100vh - 47px);
     top: 47px;
@@ -557,4 +574,136 @@ a{
     color:#EF4141;
     transition: 0.3s all;
 }
+.slider-banner-contain .slick-next{
+    width: 28px;
+    height: 47px;
+    right: 0;
+    z-index: 3;
+}
+.slider-banner-contain .slick-prev{
+    width: 28px;
+    height: 47px;
+    left: 0;
+    z-index: 3;
+}
+.dis-block{
+    display: block !important;
+}
+.dis-none{
+    display: none !important;
+}
 /* --------- END BANNER SLIDER CSS---------- */
+/* --------- HOME SEC 3 CSS---------- */
+.mc_home_sec_3{
+    padding : 22px 0 61px 0;
+}
+.mc_home_sec_3 .mchs3_content{
+    padding: 20px 15px;
+    border:1px solid #8080803b;
+    border-radius: 15px;
+}
+.mc_home_sec_3 .mchs3_thumb_one_post img{
+    height: 168px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.mc_home_sec_3 .mchs3_thumb_one_post{
+    margin-bottom: 15px;
+}
+.mc_home_sec_3 .mchs3_title_one_post{
+    color: #191919;
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 30px;
+    transition: 0.3s all;
+}
+.mc_home_sec_3 .mchs3_content_list img{
+    height: 87px;
+    object-fit: cover;
+}
+.mc_home_sec_3 .mchs3_content_list .mc-row{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom:1px solid #8080803b;
+}
+.mc_home_sec_3 .mchs3_content_list .mc-row:last-child{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom:0;
+}
+.mchs3_content_list .mchs3_title_list_post{
+    color:#191919;
+    font-size: 14px;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 5px;
+    transition: 0.3s all;
+}
+
+.mchs3_content_list .mchs3_desc_list_post{
+    color:#191919;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+.mchs3_content_cover:hover .mchs3_title_one_post{
+    color: #f59191;
+    transition: 0.3s all;
+}
+.mc_home_sec_3 .mchs3_content_list .mc-row:hover .mchs3_title_list_post{
+    color: #f59191;
+    transition: 0.3s all;
+}
+.hover14 .mchs3_thumb_one_post {
+	position: relative;
+    overflow: hidden;
+}
+.hover14 .mchs3_thumb_one_post::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 .mchs3_thumb_one_post:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+.hover14 .mccs-5 {
+	position: relative;
+    overflow: hidden;
+}
+.hover14 .mccs-5::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 .mccs-5:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+/* --------- END HOME SEC 3 CSS---------- */

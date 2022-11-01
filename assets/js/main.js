@@ -78,5 +78,7 @@ function sliderBannerHome(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
+        prevArrow:"<img class='prev slick-prev' src='./wp-content/themes/tamsuphunu/assets/images/prev.png' alt='button slider'>",
+        nextArrow:"<img class='next slick-next' src='./wp-content/themes/tamsuphunu/assets/images/next.png' alt='button slider'>",
     });
 }
