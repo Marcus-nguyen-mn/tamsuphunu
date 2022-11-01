@@ -11,18 +11,17 @@
                         </div>
                         <div class="mc-col-10 mc-col-sm-8">
                             <div class="slider-focus">
+                            <?php
+                            $focus_posts = get_field('choose_posts_focus','option');
+                            if( $focus_posts ): ?>
+                                <?php foreach( $focus_posts as $post ): ?>
                                 <div class="item-slider-focus">
-                                    <a href="#">Cách làm tan mỡ mí mắt ngay tại nhà hiệu quả bất ngờ</a>
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                 </div>
-                                <div class="item-slider-focus">
-                                    <a href="#">Cách làm tan mỡ mí mắt ngay tại nhà hiệu quả bất ngờ 2</a>
-                                </div>
-                                <div class="item-slider-focus">
-                                    <a href="#">Cách làm tan mỡ mí mắt ngay tại nhà hiệu quả bất ngờ 3</a>
-                                </div>
-                                <div class="item-slider-focus">
-                                    <a href="#">Cách làm tan mỡ mí mắt ngay tại nhà hiệu quả bất ngờ 4</a>
-                                </div>
+                                <?php endforeach; ?>
+                                <?php 
+                                wp_reset_postdata(); ?>
+                            <?php endif; ?>
                             </div>
                         </div>
                     </div>

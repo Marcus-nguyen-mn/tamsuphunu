@@ -218,15 +218,15 @@ a{
     transition: 0.3s all;
 }
 .main_header .right-header .icon-more-menu{
-    padding: 12px 12px;
+    padding: 12px 0px 12px 12px;
     cursor: pointer;
-    width: 35px;
+    width: 16px;
 }
 .main_header .right-header .icon-close-mega-menu{
-    padding: 12px 12px;
+    padding: 12px 0px 12px 12px;
     cursor: pointer;
     display: none;
-    width: 35px;
+    width: 16px;
 }
 .sub-menu{-webkit-animation:sub-menu 0.5s cubic-bezier(.39,.575,.565,1.000) both;animation:sub-menu 0.5s cubic-bezier(.39,.575,.565,1.000) both}
  @-webkit-keyframes sub-menu{0%{opacity:0}100%{opacity:1}}@keyframes sub-menu{0%{opacity:0}100%{opacity:1}}
@@ -480,8 +480,8 @@ a{
     background-size: contain; 
     font-size: 14px;
     color:#fff;
-    padding: 6px 10px 6px 45px;
-    margin-left: -30px;
+    padding: 6px 10px 6px 50px;
+    margin-left: -42px;
 }
 .mc_focus .slider-focus .item-slider-focus a{
     color: #191919;
@@ -522,3 +522,39 @@ a{
     width: 24px;
 }
 /* ---------END FOCUS CSS---------- */
+/* --------- BANNER SLIDER CSS---------- */
+.item-slider-banner a{
+    position: relative;
+}
+.item-slider-banner a .content-on-banner-slider{
+    position: absolute;
+    bottom:25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.item-slider-banner a .content-on-banner-slider .title-on-banner-slider{
+    font-size: 32px;
+    text-align: center;
+    color:#fff;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 15px;
+}
+.item-slider-banner a .content-on-banner-slider .btn-read-now{
+    width: 152px;
+    background: #EF4141;
+    border: 1px solid #FFFFFF;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 15px;
+    color:#fff;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 7px 0;
+    transition: 0.3s all;
+}
+.item-slider-banner a .content-on-banner-slider .btn-read-now:hover{
+    background: #fff;
+    color:#EF4141;
+    transition: 0.3s all;
+}
+/* --------- END BANNER SLIDER CSS---------- */

@@ -2,6 +2,7 @@ jQuery(document).ready(function(){
     handleMegaMenu();
     handleMenuMobile();
     sliderFocus();
+    sliderBannerHome();
 });
 function handleMegaMenu(){
     let showAllCateMenu = document.querySelector("#showAllCateMenu");
@@ -65,5 +66,17 @@ function sliderFocus(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows: false,
+    });
+}
+function sliderBannerHome(){
+    jQuery('.slider-banner-contain').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
     });
 }
