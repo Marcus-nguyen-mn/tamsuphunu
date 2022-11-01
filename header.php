@@ -29,13 +29,18 @@
                         ?>
                     </div>
                     <div class="icon-more-menu" id="showAllCateMenu">
-                        ...
+                        <i class="gg-more"></i>
                     </div>
                     <div class="icon-close-mega-menu" id="closeAllCateMenu">
-                        x
+                        <i class="gg-close"></i>
                     </div>
                 </div>
-                
+                <div class="icon-menu-mobile" id="openMenuMobile">
+                    <i class="gg-menu"></i>
+                </div>
+                <div class="icon-close-menu-mobile" id="closeMenuMobile">
+                    <i class="gg-close"></i>
+                </div>
             </div>
         </div>
     </div>
@@ -46,10 +51,19 @@
         <div class="mc_mega_all_menu_contain">
             <?php
                 wp_nav_menu( array(
-                    'theme_location' => 'main_menu',
+                    'theme_location' => 'menu_show_category',
                 ) );
             ?>
         </div>
+    </div>
+</div>
+<div class="mc-menu-mobile fade-in-left" id="menuMobile">
+    <div class="mc-menu-mobile-contain">
+        <?php
+            wp_nav_menu( array(
+                'theme_location' => 'main_menu',
+            ) );
+        ?>
     </div>
 </div>
 <div class="bg-overlay-mega-menu mc-fade-in">
