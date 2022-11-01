@@ -1,6 +1,7 @@
 jQuery(document).ready(function(){
     handleMegaMenu();
     handleMenuMobile();
+    sliderFocus();
 });
 function handleMegaMenu(){
     let showAllCateMenu = document.querySelector("#showAllCateMenu");
@@ -53,4 +54,16 @@ function handleMenuMobile(){
             openMenuMobile.style.display = "block";
         };
     }
+}
+function sliderFocus(){
+    jQuery('.slider-focus').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+    });
 }

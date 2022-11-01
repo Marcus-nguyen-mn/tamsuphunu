@@ -4,6 +4,11 @@
     }
 }
 @media only screen and (max-width: 1200px) {
+    .mc-container{
+        max-width: 100%;
+        padding: 0 10px;
+        margin:0 auto;
+    }
     .main_header .right-header ul.menu li.menu-item-has-children:hover .sub-menu{
         left: unset;
         right:0;
@@ -84,6 +89,16 @@
     }
     .icon-menu-mobile{
         display: block;
+    }
+    .mc_focus .mc-forcus-left .focus-title{
+        padding: 6px 10px 6px 30px;
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width: 876px){
+    .mc_focus .mc-forcus-left .focus-title{
+        padding: 6px 10px 6px 10px;
+        margin-left: -8px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -209,7 +224,44 @@
         max-width: 100%;
         width: 100%;
     }
+    .mc_focus .mc-forcus-left .focus-title{
+        padding: 6px 10px 6px 83px;
+        margin-left: -73px;
+    }
+    .slider-focus{
+        margin-left: -18px;
+    }
+    .mc-form-search .form-control{
+        width: 100%;
+    }
+    .mc-form-search .sty_input{
+        width: 100%;
+    }
+    .mc-form-search{
+        margin-top: 6px;
+    }
+    .mc_focus{
+        padding: 6px 0;
+    }
 }
 @media only screen and (max-width: 438px) {
-
+    .mc_focus .mc-forcus-left .focus-title{
+        padding: 6px 10px 6px 42px;
+        margin-left: -35px;
+    }
+    .slider-focus{
+        margin-left: -18px;
+    }
+    .mc-form-search .form-control{
+        width: 100%;
+    }
+    .mc-form-search .sty_input{
+        width: 100%;
+    }
+    .mc-form-search{
+        margin-top: 6px;
+    }
+    .mc_focus{
+        padding: 6px 0;
+    }
 }

@@ -35,6 +35,9 @@ html,body{
     font-size: 15px;
     margin-top: 24px;
 }
+input{
+    box-sizing: border-box;
+}
 img{
     display: block;
     width: 100%;
@@ -466,3 +469,56 @@ a{
 .fade-in-left{-webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}
  @-webkit-keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
 /* ---------END HEADER MENU CSS---------- */
+/* ---------FOCUS CSS---------- */
+.mc_focus{
+    padding: 10px 0;
+}
+.mc_focus .mc-forcus-left .focus-title{
+    background-image: url("../images/focus-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    font-size: 14px;
+    color:#fff;
+    padding: 6px 10px 6px 45px;
+    margin-left: -30px;
+}
+.mc_focus .slider-focus .item-slider-focus a{
+    color: #191919;
+    font-family: 'Roboto-Bold';
+    transition: 0.3s all;
+    font-size: 14px;
+}
+.mc_focus .slider-focus .item-slider-focus a:hover{
+    color: #ff6d6d;
+    text-decoration: underline;
+    transition: 0.3s all;
+}
+.mc-form-search .form-control{
+    width: 270px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    border: 1px solid #D5D5D5;
+    display: block;
+    font-size: 13px;
+    outline: none;
+    font-family: 'Roboto';
+}
+.mc-form-search .sty_input{
+    position: relative;
+    width: max-content;
+    margin-left: auto;
+}
+.mc-form-search .sub-search-mc-header{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.mc-form-search .sub-search-mc-header img{
+    width: 24px;
+}
+/* ---------END FOCUS CSS---------- */
