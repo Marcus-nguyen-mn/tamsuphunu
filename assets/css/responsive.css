@@ -178,6 +178,13 @@
     .thumb-slider-red img{
         height: 400px;
     }
+    .mc-right-sb-cover{
+        position: unset;
+        top: unset;
+    }
+    .mc-sb-banner-home{
+        display: none;
+    }
 }
 @media only screen and (max-width: 768px) {
     .mc-col-md-1{
@@ -251,6 +258,9 @@
     }
     .mc_home_sec_3 .mchs3_content{
         margin-bottom: 20px;
+    }
+    .mc_sec_5 .red-slider{
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -347,6 +357,9 @@
     }
     .red-slider{
         margin-top: 20px;
+    }
+    .mc-sb-banner-home{
+        display: block;
     }
 }
 @media only screen and (max-width: 438px) {
