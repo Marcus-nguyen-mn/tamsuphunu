@@ -4,6 +4,7 @@ jQuery(document).ready(function(){
     sliderFocus();
     sliderBannerHome();
     sliderRightRed();
+    sliderRightWhile();
 });
 function handleMegaMenu(){
     let showAllCateMenu = document.querySelector("#showAllCateMenu");
@@ -95,5 +96,19 @@ function sliderRightRed(){
         arrows: true,
         prevArrow:"<img class='prev slick-prev' src='./wp-content/themes/tamsuphunu/assets/images/prev-sm.png' alt='button slider'>",
         nextArrow:"<img class='next slick-next' src='./wp-content/themes/tamsuphunu/assets/images/next-prev.png' alt='button slider'>",
+    });
+}
+function sliderRightWhile(){
+    jQuery('.slider-while').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        prevArrow:"<img class='prev slick-prev' src='./wp-content/themes/tamsuphunu/assets/images/prev-red.png' alt='button slider'>",
+        nextArrow:"<img class='next slick-next' src='./wp-content/themes/tamsuphunu/assets/images/next-red.png' alt='button slider'>",
     });
 }

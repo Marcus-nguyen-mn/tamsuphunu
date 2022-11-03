@@ -149,7 +149,7 @@
                     <div class="slider-red">
                         <?php 
                             $args = array( 
-                                'category_name' => 'giai-tri',
+                                'category_name' => 'an-gi-di-dau',
                                 'post_type'=>  'post',
                                 'post_status' => 'publish',
                                 'posts_per_page' => 3,
