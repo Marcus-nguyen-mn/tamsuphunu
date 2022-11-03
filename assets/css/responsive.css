@@ -361,6 +361,13 @@
     .mc-sb-banner-home{
         display: block;
     }
+    .footer .menu-footer .menu li a{
+        padding: 15px 12px;
+        font-size: 12px;
+    }
+    .footer .menu-footer .menu li a::after{
+        height: 14px;
+    }
 }
 @media only screen and (max-width: 438px) {
     .mc_focus .mc-forcus-left .focus-title{

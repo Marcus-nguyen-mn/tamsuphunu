@@ -738,7 +738,7 @@ a{
     margin-bottom: 50px;
 }
 .mc_sec_5{
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 .mc-first-before .mc-first-before-thumb{
     margin-bottom: 15px;
@@ -906,3 +906,40 @@ a{
     top: 85px;
     z-index: 10;
 }
+/*---------- CSS FOOTER -------------*/
+.menu-footer{
+    background: #FFDBDB;
+    margin-bottom: 15px;
+}
+.footer .menu-footer .menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer .menu-footer .menu li a{
+    display: block;
+    padding: 15px 50px;
+    position: relative;
+    color: #731D0C;
+    font-size: 14px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+}
+.footer .menu-footer .menu li a:hover{
+    text-decoration: underline;
+}
+.footer .menu-footer .menu li a::after{
+    content:"";
+    position: absolute;
+    height: 24px;
+    width: 2px;
+    background: #731D0C;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+}
+.footer .menu-footer .menu li:last-child a::after{
+    display: none;
+}
+/*---------- END CSS FOOTER -------------*/
