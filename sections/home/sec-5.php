@@ -421,7 +421,7 @@
                             </div>
                         </div>
                         <div class="mc-first-before-three-af mc-row mc-mg--15">
-                            <div class="mc-col-6 mc-pdx-15">
+                            <div class="mc-col-6 mc-col-sm-12 mc-pdx-15">
                                 
                                 <?php 
                                     $args = array( 
@@ -448,7 +448,7 @@
                                     wp_reset_postdata();
                                 ?>
                             </div>
-                            <div class="mc-after-post-list mc-col-6 mc-pdx-15">
+                            <div class="mc-after-post-list mc-col-6 mc-col-sm-12 mc-pdx-15">
                                 <?php 
                                     $args = array( 
                                         'category_name' => 'bep',
