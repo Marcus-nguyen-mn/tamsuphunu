@@ -23,6 +23,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'DancingScript';
+    src: url('../fonts/DancingScript-Bold.woff2') format('woff2'),
+        url('../fonts/DancingScript-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     padding:0;
     margin:0;
@@ -791,4 +799,81 @@ a{
 .mc-after-post-list .mc-custom-mgb:hover .after-post-title{
     transition: 0.3s all;
     color:#EF4141;
+}
+.red-slider{
+    margin-top: 60px;
+    margin-bottom: 35px;
+    padding: 30px 20px;
+    background: #EF4141;
+    border-radius: 10px;
+}
+.title_red_slider{
+    font-size: 20px;
+    color:#fff;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 20px;
+}
+.red-slider .slick-prev{
+    left: -20px;
+    width: 20px;
+    top: 40%;
+}
+.red-slider .slick-next{
+    right: -20px;
+    width: 20px;
+    top: 40%;
+}
+.thumb-slider-red{
+    margin-bottom: 15px;
+}
+.thumb-slider-red img{
+    height: 168px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.title-post-on-slider-red{
+    color:#fff;
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+}
+.sb-event-highligh{
+    padding: 30px 25px 50px 25px;
+    background: #FFDBDB;
+    border-radius: 10px;
+}
+.sb-event-highligh .sub-title-hl{
+    color: #191919;
+    font-size: 40px;
+    font-family: 'Alex-Brush';
+    font-weight: bold;
+}
+.sb-event-highligh .mc-title-hl{
+    font-size: 40px;
+    color: #EF4141;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.list-highligh-mc a{
+    font-size: 18px;
+    font-family: 'DancingScript';
+    color: #191919;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 10px;
+}
+.list-highligh-mc a:hover{
+    text-decoration: underline;
+}
+.list-highligh-mc a::before{
+    content:"";
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #EF4141;
 }

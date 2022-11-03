@@ -3,6 +3,7 @@ jQuery(document).ready(function(){
     handleMenuMobile();
     sliderFocus();
     sliderBannerHome();
+    sliderRightRed();
 });
 function handleMegaMenu(){
     let showAllCateMenu = document.querySelector("#showAllCateMenu");
@@ -80,5 +81,19 @@ function sliderBannerHome(){
         arrows: true,
         prevArrow:"<img class='prev slick-prev' src='./wp-content/themes/tamsuphunu/assets/images/prev.png' alt='button slider'>",
         nextArrow:"<img class='next slick-next' src='./wp-content/themes/tamsuphunu/assets/images/next.png' alt='button slider'>",
+    });
+}
+function sliderRightRed(){
+    jQuery('.slider-red').slick({
+        dots: false,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: true,
+        prevArrow:"<img class='prev slick-prev' src='./wp-content/themes/tamsuphunu/assets/images/prev-sm.png' alt='button slider'>",
+        nextArrow:"<img class='next slick-next' src='./wp-content/themes/tamsuphunu/assets/images/next-prev.png' alt='button slider'>",
     });
 }

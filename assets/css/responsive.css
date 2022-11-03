@@ -175,6 +175,9 @@
     .mc_home_sec_3 .mchs3_content_list img{
         height: 95px;
     }
+    .thumb-slider-red img{
+        height: 400px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .mc-col-md-1{
@@ -335,6 +338,15 @@
     }
     .item-slider-banner a .content-on-banner-slider .title-on-banner-slider{
         font-size: 16px;
+    }
+    .thumb-slider-red img{
+        height: 235px;
+    }
+    .mc_home_sec_3{
+        padding: 22px 0 30px 0;
+    }
+    .red-slider{
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 438px) {
