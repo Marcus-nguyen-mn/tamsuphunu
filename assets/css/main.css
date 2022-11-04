@@ -164,7 +164,7 @@ a{
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 100;
 }
 .main_header .logo img{
     width:193px;
@@ -941,5 +941,54 @@ a{
 }
 .footer .menu-footer .menu li:last-child a::after{
     display: none;
+}
+.left-request-reader{
+    padding: 20px 15px;
+    border: 1px solid #D5D5D5;
+}
+.left-request-reader .logo_footer img{
+    width: 103px;
+}
+.request_and_banner_ads{
+    margin-bottom: 30px;
+}
+.txt-request-reader{
+    padding-left: 15px;
+}
+.title_request_reader{
+    color: #731D0C;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 10px;
+}
+.css-mailer{
+    margin-bottom: 8px;
+}
+.css-mailer img{
+    width: 24px;
+    margin-right: 5px;
+}
+.css-mailer span{
+    color: #434343;
+    font-size: 13px;
+    font-family: 'Roboto-Bold';
+}
+.desc_requeest_reader{
+    font-size: 13px;
+    color: #434343;
+    line-height: 20px;
+}
+.banner_ads_right_footer{
+    display: block;
+    height: 100%;
+}
+.banner_ads_right_footer img{
+    height: 100%;
+    object-fit: cover;
+}
+.last_footer{
+    padding:33px;
+    background: #731D0C;
 }
 /*---------- END CSS FOOTER -------------*/
