@@ -368,6 +368,25 @@
     .footer .menu-footer .menu li a::after{
         height: 14px;
     }
+    .left-request-reader .logo_footer img{
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .title_request_reader{
+        text-align: center;
+    }
+    .css-mailer{
+        justify-content: center;
+    }
+    .desc_requeest_reader{
+        text-align: center;
+    }
+    .about_woman_think{
+        padding-left: 0;
+    }
+    .info_this_footer{
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 438px) {
     .mc_focus .mc-forcus-left .focus-title{

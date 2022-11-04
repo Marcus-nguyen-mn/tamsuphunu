@@ -991,4 +991,43 @@ a{
     padding:33px;
     background: #731D0C;
 }
+.title_info_this_footer{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.one_this_info{
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 15px ;
+}
+.one_this_info:hover{
+    text-decoration: underline;
+}
+.one_this_info img{
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.about_woman_think{
+    padding-left: 70px;
+}
+.about_woman_think h4{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about_woman_think a{
+    color:#fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+.about_woman_think a:hover{
+    text-decoration: underline;
+}
 /*---------- END CSS FOOTER -------------*/
