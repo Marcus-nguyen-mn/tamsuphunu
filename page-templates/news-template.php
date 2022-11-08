@@ -9,6 +9,7 @@ get_header();
     get_template_part('sections/banner-top-on-all-page');
     list_cat_child(4);
     get_template_part('sections/news/news-sec-1'); 
+    get_template_part('sections/news/news-sec-2'); 
 ?>
 
 <?php get_footer();?>

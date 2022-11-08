@@ -1035,6 +1035,7 @@ a{
     display: block;
     padding: 10px;
     border-bottom: 2px solid transparent;
+    font-family: 'Roboto-Bold';
 }
 .list-child-cat .col-cat-child a:hover{
     border-bottom: 2px solid #731d0c8f;
@@ -1147,4 +1148,39 @@ a{
     padding-bottom: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #80808024;
+}
+.thtm-thumb-post{
+    margin-bottom: 5px;
+}
+.thtm-thumb-post img{
+    height: 185px;
+    object-fit: cover;
+}
+.thtm-title-post{
+    font-size: 16px;
+    color: #000;
+    font-family: 'Roboto-Bold';
+}
+.news-thtm-1{
+    margin-bottom: 40px;
+}
+.thtm-2-title-post{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 20px;
+}
+.thtm-2-date-post{
+    font-size: 13px;
+    letter-spacing: .2px;
+    display: block;
+    color: #888;
+    margin-bottom: 20px;
+}
+.news-thtm-2 a{
+    margin-bottom: 20px;
+}
+.thtm2-thumb-post img{
+    height: 160px;
+    object-fit: cover;
 }
