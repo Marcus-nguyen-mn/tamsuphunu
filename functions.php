@@ -11,7 +11,8 @@ $file_includes = [
     'inc/theme-assets.php',                 // Style and JS
     'inc/theme-setup.php',                  // General theme setting
     'inc/acf-options.php',                  // ACF Option page
-    'inc/duplicate.php',              // Dupplicate Post                  
+    'inc/duplicate.php',              // Dupplicate Post     
+    'inc/list-cat-child.php',              // List Cat Child                  
 ];
 foreach ($file_includes as $file) {
     if (!$filePath = locate_template($file)) {
