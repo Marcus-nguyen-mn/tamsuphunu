@@ -118,6 +118,7 @@
                     </div>
                 </div>
             </div>
+            <a href="#" class="btn-read-more">Xem thêm <span style="font-size:20px;">&#187;</span</a>
         </div>
     </div>
 </section>

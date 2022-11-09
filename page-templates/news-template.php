@@ -10,6 +10,7 @@ get_header();
     list_cat_child(4);
     get_template_part('sections/news/news-sec-1'); 
     get_template_part('sections/news/news-sec-2'); 
+    get_template_part('sections/news/news-sec-3'); 
 ?>
 
 <?php get_footer();?>
