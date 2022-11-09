@@ -1107,14 +1107,14 @@ a{
     border-radius: 50%;
     background: #731D0C;
 }
-.show_news_sec_1 .ns-thumb-post-c2{
+.ns-thumb-post-c2{
     margin-bottom: 6px;
 }
-.show_news_sec_1 .ns-thumb-post-c2 img{
+.ns-thumb-post-c2 img{
     height: 175px;
     object-fit: cover;
 }
-.show_news_sec_1 .ns-title-post-c2{
+.ns-title-post-c2{
     color: #000;
     font-size: 16px;
     font-family: 'Roboto-Bold';
@@ -1153,7 +1153,7 @@ a{
     margin-bottom: 5px;
 }
 .thtm-thumb-post img{
-    height: 185px;
+    height: 175px;
     object-fit: cover;
 }
 .thtm-title-post{
