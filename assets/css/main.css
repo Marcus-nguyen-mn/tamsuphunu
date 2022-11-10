@@ -1223,3 +1223,13 @@ a{
     display: block;
     width: max-content;
 }
+.sec_1_pth_one_post{
+    margin-bottom: 30px;
+}
+.show_pth .thtm-mgb{
+    margin-bottom: 30px;
+}
+.sec_1_pth_one_post img{
+    height: 250px;
+    object-fit: cover;
+}
