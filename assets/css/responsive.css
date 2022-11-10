@@ -140,6 +140,9 @@
         height: 155px;
         object-fit: cover;
     }
+    .gt_sec_4 .thtm2-thumb-post img{
+        height: 150px;
+    }
 }
 @media only screen and (max-width: 876px){
     .mc-mg--10{
@@ -258,6 +261,9 @@
     .img_item_video_hl img{
         height: 122px;
     }
+    .gt_sec_4 .thtm2-thumb-post img{
+        height: 120px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -355,6 +361,9 @@
     }
     .img_item_video_hl img{
         height: 210px;
+    }
+    .gt_sec_4 .ns-thumb-post-c2 img{
+        height: 120px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -541,6 +550,32 @@
     }
     .img_item_video_hl img{
         height: 115px;
+    }
+    .mg-csb{
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #80808024;
+    }
+    .gt_sec_4 .ns-thumb-post-c2 img{
+        height: 230px;
+    }
+    .gt_sec_4 .thtm2-thumb-post img{
+        height: 230px;
+    }
+    .gt_sec_4 .thtm-2-title-post{
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .gt_sec_4 .thtm-2-excerpt-post{
+        margin-bottom: 10px;
+    }
+    .list-child-cat-scrl{
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .list-child-cat-contain{
+        width: 800px;
     }
 }
 @media only screen and (max-width: 438px) {

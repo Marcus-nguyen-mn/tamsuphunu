@@ -11,6 +11,7 @@ get_header();
     get_template_part('sections/entertainment/entertainment-1'); 
     get_template_part('sections/entertainment/entertainment-2'); 
     get_template_part('sections/entertainment/entertainment-3');
+    get_template_part('sections/entertainment/entertainment-4');
 ?>
 
 <?php get_footer();?>
