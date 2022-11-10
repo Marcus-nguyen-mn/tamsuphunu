@@ -1250,3 +1250,22 @@ a{
     margin-bottom: 30px;
     border-bottom: 1px solid #80808024;
 }
+.item_video_highlight{
+    position: relative;
+}
+.item_video_highlight .icon_item_video_hl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+}
+.img_item_video_hl img{
+    height: 180px;
+    object-fit: cover;
+}
+.show_gt_sec_3_contain{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}

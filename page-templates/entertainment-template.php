@@ -10,6 +10,7 @@ get_header();
     list_cat_child(5);
     get_template_part('sections/entertainment/entertainment-1'); 
     get_template_part('sections/entertainment/entertainment-2'); 
+    get_template_part('sections/entertainment/entertainment-3');
 ?>
 
 <?php get_footer();?>
