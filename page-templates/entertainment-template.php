@@ -9,6 +9,7 @@ get_header();
     get_template_part('sections/banner-top-on-all-page');
     list_cat_child(5);
     get_template_part('sections/entertainment/entertainment-1'); 
+    get_template_part('sections/entertainment/entertainment-2'); 
 ?>
 
 <?php get_footer();?>

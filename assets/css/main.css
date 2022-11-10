@@ -1233,3 +1233,20 @@ a{
     height: 250px;
     object-fit: cover;
 }
+.show_pth_sec_1_contain{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}
+.show_pth_sec_2 .mc-after-post-list .mc-custom-mgb .img-st-effect{
+    height: 140px;
+    overflow: hidden;
+}
+.show_pth_sec_2 .mc-after-post-list .mc-custom-mgb img{
+    height: 140px;
+}
+.show_pth_sec_2_contain{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}
