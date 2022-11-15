@@ -274,6 +274,7 @@
         height: 170px;
         object-fit: cover;
     }
+    
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -383,6 +384,9 @@
     }
     .fashion_one .thtm-thumb-post img{
         height: 180px;
+    }
+    .fashion-4 .thtm-thumb-post img{
+        height: 150px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -610,6 +614,9 @@
     }
     .fashion-2 .thtm-thumb-post img{
         height: 250px;
+    }
+    .fashion-4 .thtm-thumb-post img{
+        height: 235px;
     }
 }
 @media only screen and (max-width: 438px) {
