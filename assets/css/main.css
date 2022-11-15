@@ -1303,3 +1303,17 @@ a{
     top: 85px;
     z-index: 10;
 }
+.fashion_one_contain{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}
+.fashion-2 .thtm-thumb-post img{
+    height: 240px;
+    object-fit: cover;
+}
+.fashion-2-contain{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}

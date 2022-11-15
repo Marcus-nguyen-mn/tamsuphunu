@@ -270,6 +270,10 @@
     .fashion_one .thtm-thumb-post img{
         height: 95px;
     }
+    .fashion-2 .thtm-thumb-post img{
+        height: 170px;
+        object-fit: cover;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -603,6 +607,9 @@
     }
     .fashion_one .thtm-title-post{
         margin-bottom: 0;
+    }
+    .fashion-2 .thtm-thumb-post img{
+        height: 250px;
     }
 }
 @media only screen and (max-width: 438px) {
