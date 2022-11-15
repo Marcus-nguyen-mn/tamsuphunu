@@ -1272,3 +1272,34 @@ a{
 .gt_sec_4 .thtm2-thumb-post img{
     height: 175px;
 }
+.fashion_one .fas-thumb-post img{
+    height: 289px;
+    object-fit: cover;
+}
+.fashion_one .fas-title-post{
+    font-size: 18px;
+    color: #000;
+    font-family: 'Roboto-Bold';
+    margin: 10px 0;
+}
+.fashion_one .fas-excerpt-post{
+    font-size: 15px;
+    color: #808080bd;
+}
+.fashion_one .thtm-thumb-post img{
+    height: 130px;
+    object-fit: cover;
+}
+.fashion_one .thtm-title-post{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.fashion_one .banner_qc_news_1{
+    position: relative;
+    height: 100%;
+}
+.fashion_one .stk-banenr{
+    position: sticky;
+    top: 85px;
+    z-index: 10;
+}

@@ -143,6 +143,9 @@
     .gt_sec_4 .thtm2-thumb-post img{
         height: 150px;
     }
+    .fashion_one .thtm-title-post{
+        margin-bottom: 18px;
+    }
 }
 @media only screen and (max-width: 876px){
     .mc-mg--10{
@@ -264,6 +267,9 @@
     .gt_sec_4 .thtm2-thumb-post img{
         height: 120px;
     }
+    .fashion_one .thtm-thumb-post img{
+        height: 95px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -364,6 +370,15 @@
     }
     .gt_sec_4 .ns-thumb-post-c2 img{
         height: 120px;
+    }
+    .fashion_one .fas-thumb-post img{
+        height: 350px;
+    }
+    .fashion_one .fas-excerpt-post{
+        margin-bottom: 20px;
+    }
+    .fashion_one .thtm-thumb-post img{
+        height: 180px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -576,6 +591,18 @@
     }
     .list-child-cat-contain{
         width: 800px;
+    }
+    .bn-fas-none{
+        display: none;
+    }
+    .fashion_one .fas-thumb-post img{
+        height: 250px;
+    }
+    .fashion_one .thtm-thumb-post img{
+        height: 250px;
+    }
+    .fashion_one .thtm-title-post{
+        margin-bottom: 0;
     }
 }
 @media only screen and (max-width: 438px) {
