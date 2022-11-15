@@ -45,6 +45,7 @@
                                                 'category_name' => 'xu-huong-the-gioi',
                                                 'post_type'=>  'post',
                                                 'post_status' => 'publish',
+                                                'offset' => 1, 
                                                 'posts_per_page' => 6,
                                             );
                                             $post_one_1 = new WP_Query( $args );

@@ -10,6 +10,7 @@ get_header();
     list_cat_child(6);
     get_template_part('sections/fashion/fashion-1'); 
     get_template_part('sections/fashion/fashion-2'); 
+    get_template_part('sections/fashion/fashion-3'); 
 ?>
 
 <?php get_footer();?>

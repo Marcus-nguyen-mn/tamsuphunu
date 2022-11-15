@@ -1317,3 +1317,17 @@ a{
     margin-bottom: 30px;
     border-bottom: 1px solid #80808024;
 }
+.fashion-3 .banner_qc_news_1{
+    position: relative;
+    height: 100%;
+}
+.fashion-3 .stk-banenr{
+    position: sticky;
+    top: 85px;
+    z-index: 10;
+}
+.fashion-3-contain{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}
