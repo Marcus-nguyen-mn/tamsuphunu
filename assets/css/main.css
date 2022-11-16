@@ -1334,3 +1334,8 @@ a{
 .fashion-4 .ns-first-post-c2:last-child .ns-title-post-c2{
     border-bottom: 0;
 }
+.bordr-bt-section{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #80808024;
+}
