@@ -618,6 +618,11 @@
     .fashion-4 .thtm-thumb-post img{
         height: 235px;
     }
+    .show_pth_sec_2.mother-children-two .mc-first-before-three-af{
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+        border-bottom: 0;
+    }
 }
 @media only screen and (max-width: 438px) {
     .mc_focus .mc-forcus-left .focus-title{
