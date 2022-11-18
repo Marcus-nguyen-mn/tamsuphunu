@@ -274,7 +274,9 @@
         height: 170px;
         object-fit: cover;
     }
-    
+    .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
+        height: 260px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -387,6 +389,9 @@
     }
     .fashion-4 .thtm-thumb-post img{
         height: 150px;
+    }
+    .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
+        height: 300px;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -622,6 +627,9 @@
         padding-bottom: 0px;
         margin-bottom: 10px;
         border-bottom: 0;
+    }
+    .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
+        height: 250px;
     }
 }
 @media only screen and (max-width: 438px) {
