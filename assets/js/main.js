@@ -5,6 +5,7 @@ jQuery(document).ready(function(){
     sliderBannerHome();
     sliderRightRed();
     sliderRightWhile();
+    sliderPartnerContactPage();
 });
 function handleMegaMenu(){
     let showAllCateMenu = document.querySelector("#showAllCateMenu");
@@ -111,4 +112,41 @@ function sliderRightWhile(){
         prevArrow:"<img class='prev slick-prev' src='./wp-content/themes/tamsuphunu/assets/images/prev-red.png' alt='button slider'>",
         nextArrow:"<img class='next slick-next' src='./wp-content/themes/tamsuphunu/assets/images/next-red.png' alt='button slider'>",
     });
+}
+
+function sliderPartnerContactPage(){
+    jQuery('.slider-partner-contact-page').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
 }

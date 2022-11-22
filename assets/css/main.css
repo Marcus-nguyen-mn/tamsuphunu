@@ -1429,3 +1429,20 @@ a{
 .one-ctn-ctf-two-nddetail{
     text-align: center;
 }
+.mcct-item-partner a img{
+    height: 100px;
+    object-fit: contain;
+    width: 137px;
+    margin: 0 auto;
+}
+.mc_ct_partner_title{
+    color: #731D0C;
+    font-size: 25px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.mc_contact_page_three{
+    padding: 20px 0 20px 0;
+}
