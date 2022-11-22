@@ -146,6 +146,12 @@
     .fashion_one .thtm-title-post{
         margin-bottom: 18px;
     }
+    .mc-ctf-sec-1 input{
+        margin-top: 2px;
+    }
+    .mc-ctf-sec-1 textarea{
+        margin-top: 1px;
+    }
 }
 @media only screen and (max-width: 876px){
     .mc-mg--10{
@@ -277,6 +283,9 @@
     .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
         height: 260px;
     }
+    .contact_one .form-tag-sec-1{
+        max-width: 100%;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -392,6 +401,10 @@
     }
     .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
         height: 300px;
+    }
+    .mc-ctf-sec-1 input{
+        margin-top: 3px;
+        padding: 6px 10px;
     }
 }
 @media only screen and (max-width: 576px) {
