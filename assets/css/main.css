@@ -1400,3 +1400,32 @@ a{
     color: #fff;
     background: #731d0c;
 }
+.mc_ct_two_title{
+    color: #731D0C;
+    font-size: 25px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.mc_contact_two{
+    padding: 30px 0 60px 0;
+}
+.one-ctn-ctf-two-img img{
+    max-width: 150px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.one-ctn-ctf-two-name{
+    display: block;
+    position: relative;
+    color: #731D0C;
+    font-size: 15px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.one-ctn-ctf-two-nddetail{
+    text-align: center;
+}

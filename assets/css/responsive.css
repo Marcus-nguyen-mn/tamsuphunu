@@ -644,6 +644,9 @@
     .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
         height: 250px;
     }
+    .ctf-mgb{
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 438px) {
     .mc_focus .mc-forcus-left .focus-title{
