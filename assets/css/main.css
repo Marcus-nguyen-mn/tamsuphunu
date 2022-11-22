@@ -1343,7 +1343,7 @@ a{
     height: 340px;
 }
 .contact_one{
-    padding: 50px 0;
+    padding: 20px 0 50px 0;
 }
 .contact_one .titl-contact-sec-1{
     color: #731D0C;
@@ -1444,5 +1444,5 @@ a{
     text-align: center;
 }
 .mc_contact_page_three{
-    padding: 20px 0 20px 0;
+    padding: 40px 0 20px 0;
 }
