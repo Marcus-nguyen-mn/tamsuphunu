@@ -5,83 +5,101 @@
  */
 
 get_header();
-get_template_part('sections/menu-main');
+get_template_part('sections/home/focus'); 
+    get_template_part('sections/banner-top-on-all-page');
 ?>
 <?php if ( have_posts() ) : ?>
-<section  id="for_title_blog" class="child_page secstion_full">
-    <div class="container_site">
-      <div class="left_page_header_child">
-        <?php if ( have_posts() ) : 
-            $allsearch =new WP_Query("s=$s&showposts=-1");
-            echo $allsearch ->found_posts." "; printf( __( 'Kết quả tìm kiếm cho từ khóa: %s', 'WebExp24h' ), '<span>' . esc_html( get_search_query() ));
-        ?>
-    	<?php endif; ?>
-      </div>
-      <div class="right_page_header_child">
-            <span class="you_are_here">Bạn đang ở đây:<a href="<?php echo esc_url( home_url( ) ); ?>">Trang chủ</a> / <?php printf( __( 'Kết quả tìm kiếm cho từ khóa: %s', 'WebExp24h' ), '<span>' . esc_html( get_search_query() ));?></span>
-      </div>
-    </div>
-</section>
-<section id="search_page_new" class="child_page secstion_full">
-    <div class="container_site">
-        <h1 class="search_new_tile">Tìm kiếm</h1>
-        <span>Nếu không vừa lòng với kết quả tìm kiếm bên dưới, hãy tìm kiếm với từ khóa khác!</span>
-        <form role="search" method="get" class="search_form_footer" action="<?php echo esc_url( home_url( '/' ) ); ?>">                                 		
-             <div class="search_form_page_wrap">
-                <input type="search" id="search_field_2" class="search-field search_field_form_page_footer search_field_form_page_search_page_only" placeholder="Điền từ khóa" value="<?php echo get_search_query(); ?>" name="s" />
-                <button type="submit" class="search_submit_page_footer search_submit_page_search_page"><i class="fa fa-search"></i></button>
-             </div>
-        </form>
-    </div>
-</section>
-<section id="search_page" class="child_page secstion_full">
-    <div class="container_site">
-        <ul class="items_blog">
-            <?php if (have_posts()) : $count_dnbs=1; while (have_posts()) : the_post(); ?>
-                <?php 
-                    if($count_dnbs%4==0){$class_no_margin="dnbs_no_margin_right";}else{$class_no_margin=" ";}
-                    if($count_dnbs%4==1){$class_no_marginleft="dnbs_no_margin_left";}else{$class_no_marginleft=" ";}
-                    ?>
-                    
-                    <li class="item_blog item_blog_<?php echo $count_dnbs;?> <?php echo $class_no_margin;?>  <?php echo $class_no_marginleft;?>">
-                    
-                        <span class="count_items"><?php echo $count_dnbs;?></span>
-                        
-                        <div class="content_list_blog_page">
-                            <div class="name_title_blog">
-                                <a href="<?php the_permalink(); ?>" title="<?php the_title();?>">
-                                    <h3 class="name_title_h3_blog"><?php the_title();?></h3>
-                                   
-                                </a>
-                                <span class="date_and_time"><?php echo get_the_date( 'j F, Y' );?></span>
+<section class="mc_search_page">
+    <div class="mc-container">
+        <div id="for_title_blog" class="child_page secstion_full">
+            <div class="mc_title_search">
+                <?php if ( have_posts() ) : 
+                    $allsearch =new WP_Query("s=$s&showposts=-1");
+                    echo $allsearch ->found_posts." "; printf( __( 'Kết quả tìm kiếm cho từ khóa: %s', 'WebExp24h' ), '<span>' . esc_html( get_search_query() ));
+                ?>
+                <?php endif; ?>
+            </div>
+            <div class="show_pth_sec_1 mc_category">
+                <div class="mc-container">
+                    <div class="show_pth_sec_1_contain">
+                        <div class="mc-row mc-mg--15">
+                            <div class="mc-col-9 mc-col-sm-12 mc-pdx-15">
+                                
+                                <div class="show_pth">
+                                    <div class="mc-row mc-mg--15">
+                                        <?php $count=1; if (have_posts()) : while(have_posts()) : the_post(); ?>
+                                        <?php 
+                                            if($count == 1) :
+                                        ?>
+                                        <div class="mc-col-12 mc-pdx-15">
+                                            <a href="<?php the_permalink(); ?>" class="sec_1_pth_one_post mc-row mc-mg--15">
+                                                <div class="mc-col-6 mc-col-sm-12 mc-pdx-15">
+                                                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=" <?php echo get_the_title(); ?>">
+                                                </div>
+                                                <div class="mc-col-6 mc-col-sm-12 mc-pdx-15">
+                                                    <div class="thtm-2-title-post">
+                                                        <?php echo get_the_title(); ?>
+                                                    </div>
+                                                    <div class="thtm-2-date-post">
+                                                        <?php echo get_the_date( 'Y-m-d' ); ?>
+                                                    </div>
+                                                    <div class="thtm-2-excerpt-post">
+                                                        <?php echo get_the_excerpt(); ?>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <?php else: ?>
+                                        <a href="<?php the_permalink(); ?>" class="thtm-mgb mc-col-4 mc-col-sm-12 mc-pdx-15">
+                                            <div class="sec_1_pth_many_post">
+                                                <div class="thtm-thumb-post">
+                                                    <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt=" <?php echo get_the_title(); ?>">
+                                                </div>
+                                                <div class="thtm-title-post">
+                                                    <?php echo get_the_title(); ?>
+                                                </div>
+                                                <div class="cate-2-date-post">
+                                                    <?php echo get_the_date( 'Y-m-d' ); ?>
+                                                </div>
+                                                <div class="cate-2-excerpt-post">
+                                                    <?php echo get_the_excerpt(); ?>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <?php endif; ?>
+                                        <?php $count++;endwhile; endif; ?>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <?php
+                                the_posts_pagination( array(
+                                'prev_text' => __( 'Trước', 'textdomain' ),
+                                'next_text' => __( 'Sau', 'textdomain' ),
+                                ) );
+                                ?>
+                                
                             </div>
-                            <div class="short_description_blogs_list">
-                                
-                                    <?php echo get_excerpt(158);?>
-                                
+                            <div class="mc-col-3 mc-col-sm-12 mc-pdx-15">
+                                <div class="banner_qc_news_1">
+                                    <a href="<?php echo get_field("cate_mc_link_banner_quc_1","option"); ?>" class="stk-banenr">
+                                        <img src="<?php echo get_field("cate_mc_banner_quc_1","option"); ?>" alt="<?php echo get_field("cate_mc_banner_quc_1","option"); ?>">
+                                    </a>
+                                </div>
                             </div>
                         </div>
-           
-                    </li>
-                <?php $count_dnbs++; endwhile; //wp_reset_postdata(); ?>
-           <?php endif; ?>
-        </ul>
-        <div class="navigation_archive">
-            <?php  category_pagination();?>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-
-<?php else : ?>
-<section id="search_page" class="child_page secstion_full">
-    <div class="container_site">
-    	<header class="page-header">
-    		<h1 class="page_title_search"><?php _e( 'Không có kết quả phù hợp', 'WebExp24h' ); ?></h1>
-    	</header>
-    	<div class="page_content_search">
-			<p><?php _e( 'Xin lỗi, không có kết quả tìm kiếm phù hợp với yêu cầu của bạn!', 'WebExp24h' ); ?></p>
-			<?php get_search_form(); ?>
-    	</div>
+<?php 
+    else :
+?>
+<section class="mc_search_page">
+    <div class="mc_title_search">
+        Không có kết quả cho từ khóa của bạn
     </div>
 </section>
 <?php		

@@ -1499,3 +1499,14 @@ a{
     color: #731D0C;
     border: 1px solid #FFDBDB;
 }
+.mc_search_page{
+    padding: 50px 0;
+}
+.mc_title_search{
+    color: #731D0C;
+    font-size: 25px;
+    font-family: 'Roboto-Bold';
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+}
