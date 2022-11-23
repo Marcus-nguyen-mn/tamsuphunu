@@ -286,6 +286,9 @@
     .contact_one .form-tag-sec-1{
         max-width: 100%;
     }
+    .title-post-new-mc{
+        font-size: 18px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner_qc_news_1_hid{
@@ -667,5 +670,8 @@
     }
     .mc_focus{
         padding: 6px 0;
+    }
+    .detail_post{
+        margin-bottom: 60px;
     }
 }
