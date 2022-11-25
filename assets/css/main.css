@@ -1582,3 +1582,11 @@ a{
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+.slider-focus{
+    max-height:18px;
+    overflow-y: hidden;
+}
+.nameVal,.phoneVal{
+    display:none;
+    color:#b50000
+}
